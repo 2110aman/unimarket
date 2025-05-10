@@ -2,17 +2,17 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["localhost", "your-supabase-project.supabase.co"],
+    domains: ['localhost', 'your-supabase-project.supabase.co'],
   },
   async redirects() {
     return [
       {
-        source: "/",
-        destination: "/home",
+        source: '/',
+        destination: '/home',
         permanent: true,
       },
-    ];
+    ]
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
